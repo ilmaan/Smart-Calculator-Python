@@ -93,6 +93,9 @@ b1.place(relx=0.5,rely=0.59, anchor=CENTER)
 list = Listbox(win,width=20, height=3)
 list.place(relx=0.5,rely=0.75, anchor=CENTER)
 
+l3 = Label(win , text = 'check for the correct spellings for the operations', width=40 , padx=1 , bg='black',foreground='white')
+l3.place(relx=0.5,rely=0.95, anchor=CENTER)
+
 win.mainloop()
 
 
